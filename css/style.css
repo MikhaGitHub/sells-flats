@@ -1,0 +1,58 @@
+
+body {
+	background-color:rgba(175, 172, 172, 0.767);
+   
+}
+
+.card__text {
+    color: grey;
+    line-height: 35px;
+    font-size: 14px;
+}
+.card__link {
+	a:hover {
+			opacity: 0.3;
+			transform: translateY(-5px)
+		}
+			
+			
+}
+
+.sidebar {
+	width: 270px;
+	min-width: 200px;
+}
+
+
+.widget:not(:last-child){
+	margin: 30px;
+}
+
+@media (max-width: 1200px) {
+	.container {
+		width: 830px;
+	}
+}
+
+
+@media (max-width:829px) {
+	.container {
+		width: 600px;
+	}
+	.sidebar {
+		position: fixed;
+		top: 0;
+		left:0;
+		padding: 15px;
+		background-color: white;
+		box-shadow: 0px 0px 20px 4px rgb(0 0 0 / 37%);
+	}
+}
+
+@media (max-width: 599px) {
+	.main cards-holder {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+	}  
+}
