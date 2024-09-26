@@ -233,15 +233,13 @@ a.card__link {
     overflow: hidden;
     border-radius: 4px 4px 0 0;
     border: 1px solid #D6D6D6;
-
 }
 
 .location_row:last-child{
     overflow: hidden;
     border-radius: 0 0 4px 4px;
-    border-top: none;
     border: 1px solid #D6D6D6;
-
+    border-top: none;
 }
 
 
@@ -505,7 +503,7 @@ span.radio__title {
     font-size: 16px;
     line-height: 1.18;
     color: #3c3c3c;
-    transition: 0.2s;
+    transition: 0.2s ease-in;
     margin-bottom: 10px;
 }
 
