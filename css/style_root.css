@@ -507,7 +507,7 @@ span.radio__title {
     margin-bottom: 10px;
 }
 
-.widget__body .btn_filter:not(:last-child) {
+.widget__body .btn_submit {
     margin-bottom: 0;
 }
 
